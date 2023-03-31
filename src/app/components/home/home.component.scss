@@ -1,0 +1,29 @@
+.call-to-action {
+    text-align: center;
+    font-size: 20px;
+}
+
+.input-group {
+    .input-group-prepend * {
+        border-right: none;
+        border-radius: 0;
+        background: none;
+        background-color: white;
+    }
+
+    .input-group-append * {
+        border-left: none;
+        border-radius: 0;
+        background: none;
+        background-color: black;
+        color: white;
+    }
+
+    input {
+        border-left: none;
+    }
+
+    .bi-search {
+        cursor: pointer;
+    }
+}
