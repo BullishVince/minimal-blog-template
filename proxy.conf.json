@@ -1,0 +1,10 @@
+{
+  "/api": {
+    "target": "https://YOUR_DOMAIN.com",
+    "secure": false,
+    "changeOrigin": true,
+    "pathRewrite": {
+      "^/api": "/backend/api"
+    }
+  }
+}

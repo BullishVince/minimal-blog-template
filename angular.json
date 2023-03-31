@@ -91,7 +91,8 @@
               "browserTarget": "bullishlife.com:build:production"
             },
             "development": {
-              "browserTarget": "bullishlife.com:build:development"
+              "browserTarget": "bullishlife.com:build:development",
+              "proxyConfig": "proxy.conf.json"
             }
           },
           "defaultConfiguration": "development"
